@@ -18,12 +18,14 @@ function App() {
 
   return (
     <React.Fragment>
-      <Animation sumResult={sumResult}
+      <Animation
+        sumResult={sumResult}
         subResult={subResult}
         multResult={multResult}
         diviResult={diviResult} />
 
-      <Logic setSumResult={setSumResult}
+      <Logic 
+        setSumResult={setSumResult}
         setSubResult={setSubResult}
         setMultResult={setMultResult}
         setDiviResult={setDiviResult} />
